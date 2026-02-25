@@ -1,0 +1,11 @@
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\bin\Debug\CalcularIdadee.exe.config
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\bin\Debug\CalcularIdadee.exe
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\bin\Debug\CalcularIdadee.pdb
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\obj\Debug\CalcularIdadee.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\obj\Debug\CalcularIdadee.frmCalcularIdade.resources
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\obj\Debug\CalcularIdadee.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\obj\Debug\CalcularIdadee.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\obj\Debug\CalcularIdadee.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\obj\Debug\CalcularIdadee.exe
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\obj\Debug\CalcularIdadee.pdb
+C:\Users\ana.pscosta37\source\repos\CalcularIdadee\obj\Debug\CalcularIdadee.exe.config

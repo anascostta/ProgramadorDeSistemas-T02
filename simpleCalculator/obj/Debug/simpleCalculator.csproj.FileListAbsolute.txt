@@ -1,0 +1,11 @@
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\bin\Debug\simpleCalculator.exe.config
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\bin\Debug\simpleCalculator.exe
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\bin\Debug\simpleCalculator.pdb
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\obj\Debug\simpleCalculator.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\obj\Debug\simpleCalculator.Form1.resources
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\obj\Debug\simpleCalculator.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\obj\Debug\simpleCalculator.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\obj\Debug\simpleCalculator.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\obj\Debug\simpleCalculator.exe
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\obj\Debug\simpleCalculator.pdb
+C:\Users\ana.pscosta37\source\repos\simpleCalculator\obj\Debug\simpleCalculator.exe.config

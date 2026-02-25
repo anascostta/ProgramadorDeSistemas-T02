@@ -1,0 +1,11 @@
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\bin\Debug\DadosNecessarios.exe.config
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\bin\Debug\DadosNecessarios.exe
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\bin\Debug\DadosNecessarios.pdb
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\obj\Debug\DadosNecessarios.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\obj\Debug\DadosNecessarios.frmFormSimples.resources
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\obj\Debug\DadosNecessarios.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\obj\Debug\DadosNecessarios.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\obj\Debug\DadosNecessarios.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\obj\Debug\DadosNecessarios.exe
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\obj\Debug\DadosNecessarios.pdb
+C:\Users\ana.pscosta37\source\repos\DadosNecessarios\obj\Debug\DadosNecessarios.exe.config
