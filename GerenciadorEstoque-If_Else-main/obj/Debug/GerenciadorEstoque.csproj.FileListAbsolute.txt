@@ -1,0 +1,20 @@
+C:\Users\anapa\source\repos\GerenciadorEstoque\bin\Debug\GerenciadorEstoque.exe.config
+C:\Users\anapa\source\repos\GerenciadorEstoque\bin\Debug\GerenciadorEstoque.exe
+C:\Users\anapa\source\repos\GerenciadorEstoque\bin\Debug\GerenciadorEstoque.pdb
+C:\Users\anapa\source\repos\GerenciadorEstoque\obj\Debug\GerenciadorEstoque.csproj.AssemblyReference.cache
+C:\Users\anapa\source\repos\GerenciadorEstoque\obj\Debug\GerenciadorEstoque.frmGerenciadorEstoque.resources
+C:\Users\anapa\source\repos\GerenciadorEstoque\obj\Debug\GerenciadorEstoque.Properties.Resources.resources
+C:\Users\anapa\source\repos\GerenciadorEstoque\obj\Debug\GerenciadorEstoque.csproj.GenerateResource.cache
+C:\Users\anapa\source\repos\GerenciadorEstoque\obj\Debug\GerenciadorEstoque.csproj.CoreCompileInputs.cache
+C:\Users\anapa\source\repos\GerenciadorEstoque\obj\Debug\GerenciadorEstoque.exe
+C:\Users\anapa\source\repos\GerenciadorEstoque\obj\Debug\GerenciadorEstoque.pdb
+C:\Users\ana.pscosta37\OneDrive - SENAC - SP\GerenciadorEstoque-If_Else-main\GerenciadorEstoque-If_Else-main\bin\Debug\GerenciadorEstoque.exe.config
+C:\Users\ana.pscosta37\OneDrive - SENAC - SP\GerenciadorEstoque-If_Else-main\GerenciadorEstoque-If_Else-main\bin\Debug\GerenciadorEstoque.exe
+C:\Users\ana.pscosta37\OneDrive - SENAC - SP\GerenciadorEstoque-If_Else-main\GerenciadorEstoque-If_Else-main\bin\Debug\GerenciadorEstoque.pdb
+C:\Users\ana.pscosta37\OneDrive - SENAC - SP\GerenciadorEstoque-If_Else-main\GerenciadorEstoque-If_Else-main\obj\Debug\GerenciadorEstoque.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\OneDrive - SENAC - SP\GerenciadorEstoque-If_Else-main\GerenciadorEstoque-If_Else-main\obj\Debug\GerenciadorEstoque.frmGerenciadorEstoque.resources
+C:\Users\ana.pscosta37\OneDrive - SENAC - SP\GerenciadorEstoque-If_Else-main\GerenciadorEstoque-If_Else-main\obj\Debug\GerenciadorEstoque.Properties.Resources.resources
+C:\Users\ana.pscosta37\OneDrive - SENAC - SP\GerenciadorEstoque-If_Else-main\GerenciadorEstoque-If_Else-main\obj\Debug\GerenciadorEstoque.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\OneDrive - SENAC - SP\GerenciadorEstoque-If_Else-main\GerenciadorEstoque-If_Else-main\obj\Debug\GerenciadorEstoque.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\OneDrive - SENAC - SP\GerenciadorEstoque-If_Else-main\GerenciadorEstoque-If_Else-main\obj\Debug\GerenciadorEstoque.exe
+C:\Users\ana.pscosta37\OneDrive - SENAC - SP\GerenciadorEstoque-If_Else-main\GerenciadorEstoque-If_Else-main\obj\Debug\GerenciadorEstoque.pdb
