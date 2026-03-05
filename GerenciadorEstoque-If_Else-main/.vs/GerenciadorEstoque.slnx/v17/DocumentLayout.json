@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ana.pscosta37\\OneDrive - SENAC - SP\\GerenciadorEstoque-If_Else-main\\GerenciadorEstoque-If_Else-main\\",
+  "WorkspaceRootPath": "C:\\Users\\ana.pscosta37\\source\\repos\\GerenciadorEstoque-If_Else-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{59801CC8-484E-4C55-BE73-20C54550D5D9}|GerenciadorEstoque.csproj|c:\\users\\ana.pscosta37\\onedrive - senac - sp\\gerenciadorestoque-if_else-main\\gerenciadorestoque-if_else-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{59801CC8-484E-4C55-BE73-20C54550D5D9}|GerenciadorEstoque.csproj|c:\\users\\ana.pscosta37\\source\\repos\\gerenciadorestoque-if_else-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{59801CC8-484E-4C55-BE73-20C54550D5D9}|GerenciadorEstoque.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{59801CC8-484E-4C55-BE73-20C54550D5D9}|GerenciadorEstoque.csproj|C:\\Users\\ana.pscosta37\\OneDrive - SENAC - SP\\GerenciadorEstoque-If_Else-main\\GerenciadorEstoque-If_Else-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59801CC8-484E-4C55-BE73-20C54550D5D9}|GerenciadorEstoque.csproj|C:\\Users\\ana.pscosta37\\source\\repos\\GerenciadorEstoque-If_Else-main\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59801CC8-484E-4C55-BE73-20C54550D5D9}|GerenciadorEstoque.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\OneDrive - SENAC - SP\\GerenciadorEstoque-If_Else-main\\GerenciadorEstoque-If_Else-main\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\GerenciadorEstoque-If_Else-main\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ana.pscosta37\\OneDrive - SENAC - SP\\GerenciadorEstoque-If_Else-main\\GerenciadorEstoque-If_Else-main\\Form1.cs",
+              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\GerenciadorEstoque-If_Else-main\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -37,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\OneDrive - SENAC - SP\\GerenciadorEstoque-If_Else-main\\GerenciadorEstoque-If_Else-main\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\GerenciadorEstoque-If_Else-main\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ana.pscosta37\\OneDrive - SENAC - SP\\GerenciadorEstoque-If_Else-main\\GerenciadorEstoque-If_Else-main\\Form1.cs [Design]",
+              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\GerenciadorEstoque-If_Else-main\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T18:15:04.837Z",

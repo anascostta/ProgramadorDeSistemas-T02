@@ -1,0 +1,11 @@
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\bin\Debug\arrayunidimensional.exe.config
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\bin\Debug\arrayunidimensional.exe
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\bin\Debug\arrayunidimensional.pdb
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\obj\Debug\arrayunidimensional.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\obj\Debug\arrayunidimensional.formVetor.resources
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\obj\Debug\arrayunidimensional.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\obj\Debug\arrayunidimensional.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\obj\Debug\arrayunidimensional.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\obj\Debug\arrayunidimensional.exe
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\obj\Debug\arrayunidimensional.pdb
+C:\Users\ana.pscosta37\source\repos\arrayunidimensional\obj\Debug\arrayunidimensional.exe.config

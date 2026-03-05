@@ -1,0 +1,11 @@
+C:\Users\ana.pscosta37\source\repos\jogonumeros\bin\Debug\jogonumeros.exe.config
+C:\Users\ana.pscosta37\source\repos\jogonumeros\bin\Debug\jogonumeros.exe
+C:\Users\ana.pscosta37\source\repos\jogonumeros\bin\Debug\jogonumeros.pdb
+C:\Users\ana.pscosta37\source\repos\jogonumeros\obj\Debug\jogonumeros.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\jogonumeros\obj\Debug\jogonumeros.frmJogoNumeros.resources
+C:\Users\ana.pscosta37\source\repos\jogonumeros\obj\Debug\jogonumeros.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\jogonumeros\obj\Debug\jogonumeros.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\jogonumeros\obj\Debug\jogonumeros.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\jogonumeros\obj\Debug\jogonumeros.exe
+C:\Users\ana.pscosta37\source\repos\jogonumeros\obj\Debug\jogonumeros.pdb
+C:\Users\ana.pscosta37\source\repos\jogonumeros\obj\Debug\jogonumeros.exe.config

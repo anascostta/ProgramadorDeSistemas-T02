@@ -1,0 +1,11 @@
+C:\Users\ana.pscosta37\source\repos\matrizes\bin\Debug\matrizes.exe.config
+C:\Users\ana.pscosta37\source\repos\matrizes\bin\Debug\matrizes.exe
+C:\Users\ana.pscosta37\source\repos\matrizes\bin\Debug\matrizes.pdb
+C:\Users\ana.pscosta37\source\repos\matrizes\obj\Debug\matrizes.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\matrizes\obj\Debug\matrizes.frmMatrizes.resources
+C:\Users\ana.pscosta37\source\repos\matrizes\obj\Debug\matrizes.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\matrizes\obj\Debug\matrizes.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\matrizes\obj\Debug\matrizes.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\matrizes\obj\Debug\matrizes.exe
+C:\Users\ana.pscosta37\source\repos\matrizes\obj\Debug\matrizes.pdb
+C:\Users\ana.pscosta37\source\repos\matrizes\obj\Debug\matrizes.exe.config
