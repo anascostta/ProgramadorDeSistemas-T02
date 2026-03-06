@@ -1,0 +1,11 @@
+C:\Users\ana.pscosta37\source\repos\telalogin\bin\Debug\telalogin.exe.config
+C:\Users\ana.pscosta37\source\repos\telalogin\bin\Debug\telalogin.exe
+C:\Users\ana.pscosta37\source\repos\telalogin\bin\Debug\telalogin.pdb
+C:\Users\ana.pscosta37\source\repos\telalogin\obj\Debug\telalogin.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\telalogin\obj\Debug\telalogin.frmSistemaDeLogin.resources
+C:\Users\ana.pscosta37\source\repos\telalogin\obj\Debug\telalogin.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\telalogin\obj\Debug\telalogin.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\telalogin\obj\Debug\telalogin.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\telalogin\obj\Debug\telalogin.exe
+C:\Users\ana.pscosta37\source\repos\telalogin\obj\Debug\telalogin.pdb
+C:\Users\ana.pscosta37\source\repos\telalogin\obj\Debug\telalogin.exe.config
