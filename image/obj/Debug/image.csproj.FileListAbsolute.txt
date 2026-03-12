@@ -1,0 +1,11 @@
+C:\Users\ana.pscosta37\source\repos\image\bin\Debug\image.exe.config
+C:\Users\ana.pscosta37\source\repos\image\bin\Debug\image.exe
+C:\Users\ana.pscosta37\source\repos\image\bin\Debug\image.pdb
+C:\Users\ana.pscosta37\source\repos\image\obj\Debug\image.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\image\obj\Debug\image.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\image\obj\Debug\image.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\image\obj\Debug\image.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\image\obj\Debug\image.exe
+C:\Users\ana.pscosta37\source\repos\image\obj\Debug\image.pdb
+C:\Users\ana.pscosta37\source\repos\image\obj\Debug\image.exe.config
+C:\Users\ana.pscosta37\source\repos\image\obj\Debug\image.frmImagens.resources

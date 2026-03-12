@@ -1,0 +1,11 @@
+C:\Users\ana.pscosta37\source\repos\spotify\bin\Debug\spotify.exe.config
+C:\Users\ana.pscosta37\source\repos\spotify\bin\Debug\spotify.exe
+C:\Users\ana.pscosta37\source\repos\spotify\bin\Debug\spotify.pdb
+C:\Users\ana.pscosta37\source\repos\spotify\obj\Debug\spotify.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\spotify\obj\Debug\spotify.Form1.resources
+C:\Users\ana.pscosta37\source\repos\spotify\obj\Debug\spotify.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\spotify\obj\Debug\spotify.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\spotify\obj\Debug\spotify.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\spotify\obj\Debug\spotify.exe
+C:\Users\ana.pscosta37\source\repos\spotify\obj\Debug\spotify.pdb
+C:\Users\ana.pscosta37\source\repos\spotify\obj\Debug\spotify.exe.config

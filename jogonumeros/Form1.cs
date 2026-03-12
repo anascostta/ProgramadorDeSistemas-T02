@@ -42,9 +42,10 @@ namespace jogonumeros
 
             //Verifica se o número de tentativas chegou a 0
 
-            if (numeroTentativas == 0)
+            if (numeroTentativas == 1)
             {
-                txtResultado.Text = "Você não tem mais tentativas. O jogo acabou. ";
+                lblNumerosTentativas.Text = "0";
+                txtResultado.Text = "Você não tem mais tentativas. O jogo acabou.";
                 return;
             }
 
@@ -57,6 +58,22 @@ namespace jogonumeros
 
             numeroTentativas--;
             lblNumerosTentativas.Text = numeroTentativas.ToString();
+        
+            if(palpiteJogador == randomNumber)
+            {
+                jogoGanho = true;
+                dica = "Parabéns, você acertou!";
+            }
+            else if (palpiteJogador < randomNumber)
+            {
+                dica = "O número que você digitou é menor, digite um número maior.";
+            }
+            else
+            {
+                dica = "O número que você digitou é maior, digite um número menor";
+            }
+
+            txtResultado.Text = dica;
         }
     }
 }

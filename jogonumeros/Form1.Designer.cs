@@ -85,9 +85,9 @@
             // 
             this.txtResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtResultado.ForeColor = System.Drawing.Color.Red;
-            this.txtResultado.Location = new System.Drawing.Point(84, 406);
+            this.txtResultado.Location = new System.Drawing.Point(12, 406);
             this.txtResultado.Name = "txtResultado";
-            this.txtResultado.Size = new System.Drawing.Size(463, 31);
+            this.txtResultado.Size = new System.Drawing.Size(611, 31);
             this.txtResultado.TabIndex = 3;
             // 
             // btnTentativa

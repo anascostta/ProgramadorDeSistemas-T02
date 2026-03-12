@@ -37,7 +37,14 @@ namespace telalogin
                     //vai incrementar 1 no valor de tentativas
                     tentativas++;
                     //vai aparecer uma mensagem de senha invalida
-                    MessageBox.Show("Senha inválida. Tente novamente!");
+                    MessageBox.Show($"Senha inválida.");
+
+                    if (tentativas == 2)
+                    //aqui eu verifico se o n de tentativas for igual a 2
+                    {
+                        //se for igual ai eu mostro essa mensagem de limite excedido e conta bloqueada
+                        MessageBox.Show("Você possui apenas mais uma tentativa! A próxima sua conta será bloqueada.");
+                    }
 
                     if (tentativas == 3)
                         //aqui eu verifico se o n de tentativas for igual a 3

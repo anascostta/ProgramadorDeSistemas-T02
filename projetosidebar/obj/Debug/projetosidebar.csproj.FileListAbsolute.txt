@@ -1,0 +1,12 @@
+C:\Users\ana.pscosta37\source\repos\projetosidebar\bin\Debug\projetosidebar.exe.config
+C:\Users\ana.pscosta37\source\repos\projetosidebar\bin\Debug\projetosidebar.exe
+C:\Users\ana.pscosta37\source\repos\projetosidebar\bin\Debug\projetosidebar.pdb
+C:\Users\ana.pscosta37\source\repos\projetosidebar\obj\Debug\projetosidebar.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\projetosidebar\obj\Debug\projetosidebar.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\projetosidebar\obj\Debug\projetosidebar.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\projetosidebar\obj\Debug\projetosidebar.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\projetosidebar\obj\Debug\projetosidebar.exe
+C:\Users\ana.pscosta37\source\repos\projetosidebar\obj\Debug\projetosidebar.pdb
+C:\Users\ana.pscosta37\source\repos\projetosidebar\obj\Debug\projetosidebar.exe.config
+C:\Users\ana.pscosta37\source\repos\projetosidebar\obj\Debug\projetosidebar.frmTelaIncial.resources
+C:\Users\ana.pscosta37\source\repos\projetosidebar\obj\Debug\projetosidebar.frmPerfil.resources
