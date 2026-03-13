@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|c:\\users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmnotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:frmnotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|c:\\users\\ana.pscosta37\\source\\repos\\projetosidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|c:\\users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|c:\\users\\ana.pscosta37\\source\\repos\\projetosidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|c:\\users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:frmatividades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|c:\\users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:frmperfil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|c:\\users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmprojetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:frmprojetos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|c:\\users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmnotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:frmnotas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|c:\\users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmmateriais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:frmmateriais.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|c:\\users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmconfiguracoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:frmconfiguracoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0ABB2A14-AE17-4D19-AF9F-8F413CD94636}|projetosidebar.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,25 +46,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmPerfil.cs",
-              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmPerfil.cs",
-              "RelativeDocumentMoniker": "frmPerfil.cs",
-              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmPerfil.cs",
-              "RelativeToolTip": "frmPerfil.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "frmConfiguracoes.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmConfiguracoes.cs",
+              "RelativeDocumentMoniker": "frmConfiguracoes.cs",
+              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmConfiguracoes.cs [Design]",
+              "RelativeToolTip": "frmConfiguracoes.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T19:52:11.495Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-13T18:23:07.456Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
+              "Title": "frmMateriais.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmMateriais.cs",
+              "RelativeDocumentMoniker": "frmMateriais.cs",
+              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmMateriais.cs [Design]",
+              "RelativeToolTip": "frmMateriais.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T18:22:57.751Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmNotas.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmNotas.cs",
+              "RelativeDocumentMoniker": "frmNotas.cs",
+              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmNotas.cs [Design]",
+              "RelativeToolTip": "frmNotas.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T18:22:45.334Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmProjetos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmProjetos.cs",
+              "RelativeDocumentMoniker": "frmProjetos.cs",
+              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmProjetos.cs [Design]",
+              "RelativeToolTip": "frmProjetos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T18:22:27.409Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmAtividades.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmAtividades.cs",
+              "RelativeDocumentMoniker": "frmAtividades.cs",
+              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmAtividades.cs [Design]",
+              "RelativeToolTip": "frmAtividades.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T18:22:04.49Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmPerfil.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmPerfil.cs",
               "RelativeDocumentMoniker": "frmPerfil.cs",
@@ -56,20 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAWwCoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T18:03:17.049Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -78,6 +131,32 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-12T17:45:55.996Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmNotas.cs",
+              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmNotas.cs",
+              "RelativeDocumentMoniker": "frmNotas.cs",
+              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\frmNotas.cs",
+              "RelativeToolTip": "frmNotas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T19:40:04.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ana.pscosta37\\source\\repos\\projetosidebar\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAqwFsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-12T18:03:17.049Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -20,11 +20,18 @@ namespace projetosidebar
 
         private void FormShow(Form frm)
         {
-            ActiveFormClose();
+            if (frmAtivo != null)
+                frmAtivo.Close();
+
             frmAtivo = frm;
+
             frm.TopLevel = false;
+            frm.FormBorderStyle = FormBorderStyle.None;
+            frm.Dock = DockStyle.Fill;
+
+            pnlConteudo.Controls.Clear();
             pnlConteudo.Controls.Add(frm);
-            frm.BringToFront();
+
             frm.Show();
         }
 
@@ -47,5 +54,42 @@ namespace projetosidebar
             ActiveButton(btnPerfil);
             FormShow(new frmPerfil());
         }
+       
+
+        private void btnAtividades_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btnAtividades);
+            FormShow(new frmAtividades());
+        }
+
+        private void btnProjetos_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btnProjetos);
+            FormShow(new frmProjetos());
+        }
+
+        private void btnNotas_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btnNotas);
+            FormShow(new frmNotas());
+        }
+
+        private void btnMateriais_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btnMateriais);
+            FormShow(new frmMateriais());
+        }
+
+        private void btnConfiguracoes_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btnConfiguracoes);
+            FormShow(new frmConfiguracoes());
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            ActiveButton(btnSair);
+        }
     }
+    
 }

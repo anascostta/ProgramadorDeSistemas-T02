@@ -34,11 +34,11 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.btnSair = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnConfiguracoes = new System.Windows.Forms.Button();
+            this.btnMateriais = new System.Windows.Forms.Button();
+            this.btnNotas = new System.Windows.Forms.Button();
+            this.btnProjetos = new System.Windows.Forms.Button();
+            this.btnAtividades = new System.Windows.Forms.Button();
             this.btnPerfil = new System.Windows.Forms.Button();
             this.pnlTopo.SuspendLayout();
             this.pnlMenu.SuspendLayout();
@@ -47,21 +47,21 @@
             // pnlTopo
             // 
             this.pnlTopo.BackColor = System.Drawing.Color.Indigo;
-            this.pnlTopo.Controls.Add(this.pnlConteudo);
             this.pnlTopo.Controls.Add(this.lblTitulo);
             this.pnlTopo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTopo.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.pnlTopo.Location = new System.Drawing.Point(0, 0);
             this.pnlTopo.Name = "pnlTopo";
-            this.pnlTopo.Size = new System.Drawing.Size(1139, 213);
+            this.pnlTopo.Size = new System.Drawing.Size(1196, 225);
             this.pnlTopo.TabIndex = 0;
             // 
             // pnlConteudo
             // 
-            this.pnlConteudo.BackColor = System.Drawing.Color.Indigo;
-            this.pnlConteudo.Location = new System.Drawing.Point(0, 213);
+            this.pnlConteudo.BackColor = System.Drawing.Color.Lavender;
+            this.pnlConteudo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pnlConteudo.Location = new System.Drawing.Point(336, 225);
             this.pnlConteudo.Name = "pnlConteudo";
-            this.pnlConteudo.Size = new System.Drawing.Size(1139, 861);
+            this.pnlConteudo.Size = new System.Drawing.Size(860, 829);
             this.pnlConteudo.TabIndex = 2;
             // 
             // lblTitulo
@@ -79,16 +79,16 @@
             // 
             this.pnlMenu.BackColor = System.Drawing.Color.Lavender;
             this.pnlMenu.Controls.Add(this.btnSair);
-            this.pnlMenu.Controls.Add(this.button5);
-            this.pnlMenu.Controls.Add(this.button4);
-            this.pnlMenu.Controls.Add(this.button3);
-            this.pnlMenu.Controls.Add(this.button2);
-            this.pnlMenu.Controls.Add(this.button1);
+            this.pnlMenu.Controls.Add(this.btnConfiguracoes);
+            this.pnlMenu.Controls.Add(this.btnMateriais);
+            this.pnlMenu.Controls.Add(this.btnNotas);
+            this.pnlMenu.Controls.Add(this.btnProjetos);
+            this.pnlMenu.Controls.Add(this.btnAtividades);
             this.pnlMenu.Controls.Add(this.btnPerfil);
             this.pnlMenu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pnlMenu.Location = new System.Drawing.Point(0, 213);
+            this.pnlMenu.Location = new System.Drawing.Point(0, 225);
             this.pnlMenu.Name = "pnlMenu";
-            this.pnlMenu.Size = new System.Drawing.Size(336, 841);
+            this.pnlMenu.Size = new System.Drawing.Size(336, 829);
             this.pnlMenu.TabIndex = 1;
             // 
             // btnSair
@@ -104,96 +104,102 @@
             this.btnSair.TabIndex = 2;
             this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = false;
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // button5
+            // btnConfiguracoes
             // 
-            this.button5.BackColor = System.Drawing.Color.AliceBlue;
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 535);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(336, 107);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "Configurações";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button5.UseVisualStyleBackColor = false;
+            this.btnConfiguracoes.BackColor = System.Drawing.Color.AliceBlue;
+            this.btnConfiguracoes.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnConfiguracoes.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
+            this.btnConfiguracoes.FlatAppearance.BorderSize = 0;
+            this.btnConfiguracoes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfiguracoes.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConfiguracoes.Image = ((System.Drawing.Image)(resources.GetObject("btnConfiguracoes.Image")));
+            this.btnConfiguracoes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnConfiguracoes.Location = new System.Drawing.Point(0, 535);
+            this.btnConfiguracoes.Name = "btnConfiguracoes";
+            this.btnConfiguracoes.Size = new System.Drawing.Size(336, 107);
+            this.btnConfiguracoes.TabIndex = 5;
+            this.btnConfiguracoes.Text = "Configurações";
+            this.btnConfiguracoes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnConfiguracoes.UseVisualStyleBackColor = false;
+            this.btnConfiguracoes.Click += new System.EventHandler(this.btnConfiguracoes_Click);
             // 
-            // button4
+            // btnMateriais
             // 
-            this.button4.BackColor = System.Drawing.Color.AliceBlue;
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 428);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(336, 107);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "Materiais";
-            this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button4.UseVisualStyleBackColor = false;
+            this.btnMateriais.BackColor = System.Drawing.Color.AliceBlue;
+            this.btnMateriais.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMateriais.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
+            this.btnMateriais.FlatAppearance.BorderSize = 0;
+            this.btnMateriais.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMateriais.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMateriais.Image = ((System.Drawing.Image)(resources.GetObject("btnMateriais.Image")));
+            this.btnMateriais.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnMateriais.Location = new System.Drawing.Point(0, 428);
+            this.btnMateriais.Name = "btnMateriais";
+            this.btnMateriais.Size = new System.Drawing.Size(336, 107);
+            this.btnMateriais.TabIndex = 4;
+            this.btnMateriais.Text = "Materiais";
+            this.btnMateriais.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnMateriais.UseVisualStyleBackColor = false;
+            this.btnMateriais.Click += new System.EventHandler(this.btnMateriais_Click);
             // 
-            // button3
+            // btnNotas
             // 
-            this.button3.BackColor = System.Drawing.Color.AliceBlue;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 321);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(336, 107);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Notas";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button3.UseVisualStyleBackColor = false;
+            this.btnNotas.BackColor = System.Drawing.Color.AliceBlue;
+            this.btnNotas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnNotas.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
+            this.btnNotas.FlatAppearance.BorderSize = 0;
+            this.btnNotas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNotas.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNotas.Image = ((System.Drawing.Image)(resources.GetObject("btnNotas.Image")));
+            this.btnNotas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnNotas.Location = new System.Drawing.Point(0, 321);
+            this.btnNotas.Name = "btnNotas";
+            this.btnNotas.Size = new System.Drawing.Size(336, 107);
+            this.btnNotas.TabIndex = 3;
+            this.btnNotas.Text = "Notas";
+            this.btnNotas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnNotas.UseVisualStyleBackColor = false;
+            this.btnNotas.Click += new System.EventHandler(this.btnNotas_Click);
             // 
-            // button2
+            // btnProjetos
             // 
-            this.button2.BackColor = System.Drawing.Color.AliceBlue;
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 214);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(336, 107);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Projetos";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button2.UseVisualStyleBackColor = false;
+            this.btnProjetos.BackColor = System.Drawing.Color.AliceBlue;
+            this.btnProjetos.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnProjetos.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
+            this.btnProjetos.FlatAppearance.BorderSize = 0;
+            this.btnProjetos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnProjetos.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnProjetos.Image = ((System.Drawing.Image)(resources.GetObject("btnProjetos.Image")));
+            this.btnProjetos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnProjetos.Location = new System.Drawing.Point(0, 214);
+            this.btnProjetos.Name = "btnProjetos";
+            this.btnProjetos.Size = new System.Drawing.Size(336, 107);
+            this.btnProjetos.TabIndex = 2;
+            this.btnProjetos.Text = "Projetos";
+            this.btnProjetos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnProjetos.UseVisualStyleBackColor = false;
+            this.btnProjetos.Click += new System.EventHandler(this.btnProjetos_Click);
             // 
-            // button1
+            // btnAtividades
             // 
-            this.button1.BackColor = System.Drawing.Color.AliceBlue;
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(0, 107);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(336, 107);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Atividades";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnAtividades.BackColor = System.Drawing.Color.AliceBlue;
+            this.btnAtividades.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnAtividades.FlatAppearance.BorderColor = System.Drawing.Color.Indigo;
+            this.btnAtividades.FlatAppearance.BorderSize = 0;
+            this.btnAtividades.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAtividades.Font = new System.Drawing.Font("Britannic Bold", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAtividades.Image = ((System.Drawing.Image)(resources.GetObject("btnAtividades.Image")));
+            this.btnAtividades.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnAtividades.Location = new System.Drawing.Point(0, 107);
+            this.btnAtividades.Name = "btnAtividades";
+            this.btnAtividades.Size = new System.Drawing.Size(336, 107);
+            this.btnAtividades.TabIndex = 1;
+            this.btnAtividades.Text = "Atividades";
+            this.btnAtividades.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btnAtividades.UseVisualStyleBackColor = false;
+            this.btnAtividades.Click += new System.EventHandler(this.btnAtividades_Click);
             // 
             // btnPerfil
             // 
@@ -220,7 +226,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lavender;
-            this.ClientSize = new System.Drawing.Size(1139, 1054);
+            this.ClientSize = new System.Drawing.Size(1196, 1054);
+            this.Controls.Add(this.pnlConteudo);
             this.Controls.Add(this.pnlMenu);
             this.Controls.Add(this.pnlTopo);
             this.Name = "frmTelaIncial";
@@ -241,11 +248,11 @@
         private System.Windows.Forms.Panel pnlMenu;
         private System.Windows.Forms.Panel pnlConteudo;
         private System.Windows.Forms.Button btnPerfil;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnMateriais;
+        private System.Windows.Forms.Button btnNotas;
+        private System.Windows.Forms.Button btnProjetos;
+        private System.Windows.Forms.Button btnAtividades;
+        private System.Windows.Forms.Button btnConfiguracoes;
         private System.Windows.Forms.Button btnSair;
     }
 }
