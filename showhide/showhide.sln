@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "showhide", "showhide.csproj", "{17270F61-EB66-475B-A3ED-ACFAD663C8DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17270F61-EB66-475B-A3ED-ACFAD663C8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17270F61-EB66-475B-A3ED-ACFAD663C8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17270F61-EB66-475B-A3ED-ACFAD663C8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17270F61-EB66-475B-A3ED-ACFAD663C8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {586C1C8C-28B7-4A3F-AF3E-308B8632DE81}
+	EndGlobalSection
+EndGlobal

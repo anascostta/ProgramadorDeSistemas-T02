@@ -30,8 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmTelaIncial));
             this.pnlTopo = new System.Windows.Forms.Panel();
-            this.pnlConteudo = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
+            this.pnlConteudo = new System.Windows.Forms.Panel();
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.btnSair = new System.Windows.Forms.Button();
             this.btnConfiguracoes = new System.Windows.Forms.Button();
@@ -55,6 +55,17 @@
             this.pnlTopo.Size = new System.Drawing.Size(1196, 225);
             this.pnlTopo.TabIndex = 0;
             // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.Indigo;
+            this.lblTitulo.Font = new System.Drawing.Font("Britannic Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(53, 75);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(544, 71);
+            this.lblTitulo.TabIndex = 1;
+            this.lblTitulo.Text = "Aréa do Estudante";
+            // 
             // pnlConteudo
             // 
             this.pnlConteudo.BackColor = System.Drawing.Color.Lavender;
@@ -63,17 +74,6 @@
             this.pnlConteudo.Name = "pnlConteudo";
             this.pnlConteudo.Size = new System.Drawing.Size(860, 829);
             this.pnlConteudo.TabIndex = 2;
-            // 
-            // lblTitulo
-            // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.BackColor = System.Drawing.Color.Indigo;
-            this.lblTitulo.Font = new System.Drawing.Font("Britannic Bold", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo.Location = new System.Drawing.Point(145, 75);
-            this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(297, 71);
-            this.lblTitulo.TabIndex = 1;
-            this.lblTitulo.Text = "StudyHub";
             // 
             // pnlMenu
             // 

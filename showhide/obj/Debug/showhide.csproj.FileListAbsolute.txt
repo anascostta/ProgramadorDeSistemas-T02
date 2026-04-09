@@ -1,0 +1,12 @@
+C:\Users\ana.pscosta37\source\repos\showhide\bin\Debug\showhide.exe.config
+C:\Users\ana.pscosta37\source\repos\showhide\bin\Debug\showhide.exe
+C:\Users\ana.pscosta37\source\repos\showhide\bin\Debug\showhide.pdb
+C:\Users\ana.pscosta37\source\repos\showhide\obj\Debug\showhide.csproj.AssemblyReference.cache
+C:\Users\ana.pscosta37\source\repos\showhide\obj\Debug\showhide.frmShowHide.resources
+C:\Users\ana.pscosta37\source\repos\showhide\obj\Debug\showhide.Properties.Resources.resources
+C:\Users\ana.pscosta37\source\repos\showhide\obj\Debug\showhide.csproj.GenerateResource.cache
+C:\Users\ana.pscosta37\source\repos\showhide\obj\Debug\showhide.csproj.CoreCompileInputs.cache
+C:\Users\ana.pscosta37\source\repos\showhide\obj\Debug\showhide.exe
+C:\Users\ana.pscosta37\source\repos\showhide\obj\Debug\showhide.pdb
+C:\Users\ana.pscosta37\source\repos\showhide\obj\Debug\showhide.exe.config
+C:\Users\ana.pscosta37\source\repos\showhide\obj\Debug\showhide.frmHome.resources
