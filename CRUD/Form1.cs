@@ -129,13 +129,7 @@ namespace CRUD
                                      MessageBoxIcon.Information);
                 }
 
-                codigo_cliente = null;
-
-                // Limpa os campos após o sucesso
-                txtNomeCompleto.Text = String.Empty;
-                txtNomeSocial.Text = "";
-                txtEmail.Text = "";
-                txtCPF.Text = "";
+                limpar_formulario();
 
                 // Recarrega os clientes na ListView
                 carregar_Clientes();
@@ -272,20 +266,100 @@ namespace CRUD
                 txtNomeSocial.Text = item.SubItems[2].Text;
                 txtEmail.Text = item.SubItems[3].Text;
                 txtCPF.Text = item.SubItems[4].Text;
+
+                btnExcluirCliente.Visible = true;
             }
         }
 
         private void btnNovoCadastro_Click(object sender, EventArgs e)
         {
-            codigo_cliente = null;
+            limpar_formulario();
+        }
 
-            // Limpa os campos após o sucesso
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            excluir_Cliente();
+        }
+
+        private void btnExcluirCliente_Click(object sender, EventArgs e)
+        {
+            excluir_Cliente();
+        }
+
+        private void excluir_Cliente()
+        {
+            try
+            {
+                DialogResult opcaodigitada = MessageBox.Show("Tem certeza que deseja excluir o registro de código " + codigo_cliente,
+                                                              "Tem certeza?", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if (opcaodigitada == DialogResult.Yes)
+                {
+                    // Excluir no Banco de dados
+                    Conexao = new MySqlConnection(data_source);
+                    Conexao.Open();
+
+                    MySqlCommand cmd = new MySqlCommand();
+
+                    cmd.Connection = Conexao;
+
+                    cmd.Prepare();
+
+                    cmd.CommandText = "DELETE FROM dadosdocliente WHERE codigo = @codigo";
+
+                    cmd.Parameters.AddWithValue("@codigo", codigo_cliente);
+
+                    cmd.ExecuteNonQuery();
+
+                    // Mensagem de sucesso
+                    MessageBox.Show("Os dados do cliente foram EXCLUÍDOS!",
+                                    "Sucesso",
+                                     MessageBoxButtons.OK,
+                                     MessageBoxIcon.Information);
+
+                    limpar_formulario();
+
+                    carregar_Clientes();
+
+                    // Muda para a aba de consulta
+                    tabControl1.SelectedIndex = 1;
+
+                    btnExcluirCliente.Visible = true;
+                }
+            }
+
+            catch (MySqlException ex)
+            {
+                // Trata erros relacionados ao MySQL
+                MessageBox.Show("Erro " + ex.Number + " Ocorreu: " + ex.Message,
+                                "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                // Trata outros tipos de erro
+                MessageBox.Show("Ocorreu: " + ex.Message,
+                                "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                // Garante que a conexão com o banco será fechada, mesmo se ocorrer erro
+                if (Conexao != null && Conexao.State == ConnectionState.Open)
+                {
+                    Conexao.Close();
+                }
+            }
+        }
+
+        private void limpar_formulario()
+        {
+            codigo_cliente = null;
             txtNomeCompleto.Text = String.Empty;
-            txtNomeSocial.Text = "";
-            txtEmail.Text = "";
-            txtCPF.Text = "";
+            txtNomeSocial.Text = String.Empty;
+            txtEmail.Text = String.Empty;
+            txtCPF.Text = String.Empty;
 
             txtNomeCompleto.Focus();
+
+            btnExcluirCliente.Visible = false;
         }
     }
 }

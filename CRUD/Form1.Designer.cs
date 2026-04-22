@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.pnlTopo = new System.Windows.Forms.Panel();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
@@ -46,10 +47,14 @@
             this.txtBuscar = new System.Windows.Forms.TextBox();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnNovoCadastro = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnExcluirCliente = new System.Windows.Forms.Button();
             this.pnlTopo.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tbCadastro.SuspendLayout();
             this.tbConsulta.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlTopo
@@ -78,7 +83,7 @@
             this.tabControl1.Controls.Add(this.tbCadastro);
             this.tabControl1.Controls.Add(this.tbConsulta);
             this.tabControl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabControl1.Location = new System.Drawing.Point(12, 93);
+            this.tabControl1.Location = new System.Drawing.Point(12, 91);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(776, 239);
@@ -187,6 +192,7 @@
             // 
             // lstCliente
             // 
+            this.lstCliente.ContextMenuStrip = this.contextMenuStrip1;
             this.lstCliente.HideSelection = false;
             this.lstCliente.Location = new System.Drawing.Point(26, 61);
             this.lstCliente.MultiSelect = false;
@@ -221,7 +227,7 @@
             this.btnSalvar.BackColor = System.Drawing.SystemColors.Highlight;
             this.btnSalvar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSalvar.ForeColor = System.Drawing.Color.White;
-            this.btnSalvar.Location = new System.Drawing.Point(34, 347);
+            this.btnSalvar.Location = new System.Drawing.Point(33, 369);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(112, 45);
             this.btnSalvar.TabIndex = 2;
@@ -234,7 +240,7 @@
             this.btnNovoCadastro.BackColor = System.Drawing.Color.Green;
             this.btnNovoCadastro.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNovoCadastro.ForeColor = System.Drawing.Color.White;
-            this.btnNovoCadastro.Location = new System.Drawing.Point(167, 347);
+            this.btnNovoCadastro.Location = new System.Drawing.Point(168, 369);
             this.btnNovoCadastro.Name = "btnNovoCadastro";
             this.btnNovoCadastro.Size = new System.Drawing.Size(159, 45);
             this.btnNovoCadastro.TabIndex = 3;
@@ -242,11 +248,40 @@
             this.btnNovoCadastro.UseVisualStyleBackColor = false;
             this.btnNovoCadastro.Click += new System.EventHandler(this.btnNovoCadastro_Click);
             // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem1});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(149, 26);
+            // 
+            // toolStripMenuItem1
+            // 
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
+            this.toolStripMenuItem1.Text = "Excluir Cliente";
+            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            // 
+            // btnExcluirCliente
+            // 
+            this.btnExcluirCliente.BackColor = System.Drawing.Color.Red;
+            this.btnExcluirCliente.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExcluirCliente.ForeColor = System.Drawing.Color.White;
+            this.btnExcluirCliente.Location = new System.Drawing.Point(656, 369);
+            this.btnExcluirCliente.Name = "btnExcluirCliente";
+            this.btnExcluirCliente.Size = new System.Drawing.Size(106, 45);
+            this.btnExcluirCliente.TabIndex = 5;
+            this.btnExcluirCliente.Text = "Excluir";
+            this.btnExcluirCliente.UseVisualStyleBackColor = false;
+            this.btnExcluirCliente.Visible = false;
+            this.btnExcluirCliente.Click += new System.EventHandler(this.btnExcluirCliente_Click);
+            // 
             // frmCadastroDeCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnExcluirCliente);
             this.Controls.Add(this.btnNovoCadastro);
             this.Controls.Add(this.btnSalvar);
             this.Controls.Add(this.tabControl1);
@@ -260,6 +295,7 @@
             this.tbCadastro.PerformLayout();
             this.tbConsulta.ResumeLayout(false);
             this.tbConsulta.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -284,6 +320,9 @@
         private System.Windows.Forms.Button btnPesquisar;
         private System.Windows.Forms.TextBox txtBuscar;
         private System.Windows.Forms.Button btnNovoCadastro;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
+        private System.Windows.Forms.Button btnExcluirCliente;
     }
 }
 
